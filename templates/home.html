@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="text-primary">The CloneIt</h1>
+    <form action="{{ url_for('main') }}" method="post">
+        <div class="form-group">
+            <input class="form-control" name="url" placeholder="Enter The website url">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-info btn-lg">Submit</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
