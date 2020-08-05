@@ -30,7 +30,6 @@ def main():
     fox.get(url)
     # try to find a way to hide the above open window
     time.sleep(10)
-    i = 0
     while True:
         page = fox.page_source
         with open(f"./templates/cloned0.html", 'w') as f:
@@ -46,33 +45,41 @@ def main():
         def getInternalLinks(bsObj, includeUrl):
             random.seed(datetime.datetime.now())    
         #Finds all links that begin with a "/" ie the internal links 
-            for link in bsObj.findAll("a", href=re.compile("^(/|.*"+includeUrl+")")):
+            for link in bsObj.find_all("a", href=re.compile("^(/|.*"+includeUrl+")")):
                 if link.attrs['href'] is not None:
+                    i = 0
                     # if link.attrs['href'] not in internalLinks:
                     internalLinks.append(link.attrs['href'])
                     fox.get(link.attrs['href'])
+                    url = link.attrs['href']
                     page = fox.page_source
                     time.sleep(5)
-                    with open(f"./templates/{ link.attrs['href'] }.html", 'w') as f:
+                    with open(f"./templates/cloned_internal{i}.html", 'w') as f:
                         f.write(page)
-            # return internalLinks
+                    i= i+1
+            return internalLinks
         
         #Retrieves a list of all external links found on a page
         def getExternalLinks(bsObj, excludeUrl): 
         #Finds all links that start with "http" or "www" that do
         #not contain the current URL
+            j =1
             for link in bsObj.findAll("a",href=re.compile("^(http|https|www)((?!"+excludeUrl+").)*$")):
                 if link.attrs['href'] is not None:
                     # if link.attrs['href'] not in externalLinks:
                     #     # print(f"Adding {link.attrs['href']}  to externalLinks")
                     # externalLinks.append(link.attrs["href"])
                     fox.get(link.attrs['href'])
+                    
+                    url = link.attrs['href']
                     page = fox.page_source
                     time.sleep(5)
-                    with open(f"./templates/{link.attrs['href']}.html", 'w') as f:
+                    with open(f"./templates/cloned_external{j}.html", 'w') as f:
                         f.write(page)
+                    
                             # print(res.cookies)
-            # return externalLinks
+                    j = j+1        
+            return externalLinks
         
         
         def splitAddress(address):
@@ -131,7 +138,6 @@ def main():
             except:
                 print("Unable to acess")
                 followExternalOnly(externalLinks[0])
-        i = i+1
         followExternalOnly(url)
         # url = input("Enter the base Url to start with : ")
         # this is a base url to start with...
