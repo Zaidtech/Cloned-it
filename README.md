@@ -1,6 +1,6 @@
 # Cloned-it
 
-A Flask based simple web browser which saves the page content for offline use.
+A Flask based simple web browser which saves the content of a page for offline use and opens the links found on the same page and save their content.
 
 ## Status
 
@@ -20,7 +20,7 @@ Here are some results:-
     [<img src="./preview/p2.png" width="600"/>](p2.png)
 
 Facebook in Marathi language.
-As it is able to dynamically load the translation links as well!!(Credit goes to Facebook webdesign.)
+As it is able to dynamically load the translation links as well!!(Credit goes to Facebook developers :)  .)
 
 [<img src="./preview/p3.png" width="600"/>](p3.png)
 
