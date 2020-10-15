@@ -6,6 +6,34 @@ A Flask based simple web browser which saves the content of a page for offline u
 
 Most basic of the version i want to implement, but still working on to nail it!
 
+## Setting up
+
+### Clone
+
+    git clone https://github.com/Zaidtech/Cloned-it.git
+
+It creates a new "Rapid-Relief" folder.
+
+### Create Virtual Environment
+
+ Create virtual environment in Rapid-Relief folder.
+
+    For Windows:    virtualenv venv
+    For Linux:      python3 -m venv venv
+
+ Activate Virtual Environment
+
+    For windows:  venv\Scripts\activate
+    For linux:  source venv/bin/activate
+
+### Install Requirements:
+
+    pip3 install -r requirements.txt
+
+### Run Project
+  
+    flask run
+
 ## Preview
 
 On running up the `Flask-server` a window will appear like this
@@ -13,7 +41,7 @@ On running up the `Flask-server` a window will appear like this
   [<img src="./preview/p1.png" width="600"/>](p1.png)
 
 When i tried some url's ,it downloads a copy of the page and displays the copy of that webpages
-Here are some results:- 
+Here are some results:-
 
 1. Facebook
 
@@ -27,5 +55,3 @@ As it is able to dynamically load the translation links as well!!(Credit goes to
 2. GeekForGeeks
 
  [<img src="./preview/p4.png" width="600"/>](p4.png)
-
-
