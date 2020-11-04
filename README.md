@@ -12,11 +12,11 @@ Most basic of the version i want to implement, but still working on to nail it!
 
     git clone https://github.com/Zaidtech/Cloned-it.git
 
-It creates a new "Rapid-Relief" folder.
+It creates a new "Cloned-it" folder.
 
 ### Create Virtual Environment
 
- Create virtual environment in Rapid-Relief folder.
+ Create virtual environment in "Cloned-it" folder.
 
     For Windows:    virtualenv venv
     For Linux:      python3 -m venv venv
