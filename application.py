@@ -1,4 +1,5 @@
-# from pywebcopy import save_webpage
+#!usr/bin/python3
+
 import requests
 import os
 from flask import Flask , render_template, request
@@ -12,11 +13,10 @@ import re
 import datetime
 import random
 
-
-PATH = '/home/zaid/Desktop/WatsApp-Predictor/WatsApp Project/geckodriver-v0.27.0-linux64/geckodriver'
-
 path = os.path.dirname(__file__)
 print(path)
+PATH = f'{path}/geckodriver-v0.27.0-linux64/geckodriver'
+print(PATH)
 app = Flask(__name__)
 
 @app.route("/")

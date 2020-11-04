@@ -1,0 +1,182 @@
+1603134418802	geckodriver	INFO	Listening on 127.0.0.1:59591
+1603134419808	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLdbCvG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603134435124	Marionette	INFO	Listening on port 36295
+1603134435252	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1603134462771	geckodriver	INFO	Listening on 127.0.0.1:35551
+1603134462776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileriANld"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603134469874	Marionette	INFO	Listening on port 37883
+1603134469903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603134848994	Marionette	INFO	Stopped listening on port 37883
+1603486250643	geckodriver	INFO	Listening on 127.0.0.1:58503
+1603486251740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeT3Ypz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603486275548	Marionette	INFO	Listening on port 35731
+1603486275649	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1603487097983	geckodriver	INFO	Listening on 127.0.0.1:53333
+1603487097988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRjKDxK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603487105834	Marionette	INFO	Listening on port 33245
+1603487105910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603487151673	Marionette	INFO	Stopped listening on port 33245
+1603487152567	geckodriver	INFO	Listening on 127.0.0.1:34801
+1603487152573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilel8DsqW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603487159645	Marionette	INFO	Listening on port 43765
+1603487159708	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1603487305725	geckodriver	INFO	Listening on 127.0.0.1:49759
+1603487305731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesuVf2H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603487312846	Marionette	INFO	Listening on port 37893
+1603487312948	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js, line 2: Script terminated by timeout at:
+n.fn.extend@https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js:2:1531
+simulate@https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js:3:14951
+c@https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js:3:18143
+
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 109ms)
+console.warn: "Error while detaching the worker target:" (new Error("wrongState from: server0.conn0.child2/workerTarget112", "resource://devtools/shared/protocol/Front.js", 327))
+console.error: "Won't load source editor as the style sheet has already been removed from Style Editor."
+console.error: "Won't load source editor as the style sheet has already been removed from Style Editor."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1709: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1709: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDocShell.domWindow]
+console.error: "Error when attaching target:" (new Error("closed from: server0.conn0.child2/workerTarget407", "resource://devtools/shared/protocol/Front.js", 327))
+console.warn: "Error while detaching the worker target:" (new Error("wrongState from: server0.conn0.child2/workerTarget407", "resource://devtools/shared/protocol/Front.js", 327))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/server/actors/styles.js:363:24\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Could not get the list of font families" (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:363:24)", "resource://devtools/shared/protocol/Front.js", 327))
+console.error: "Task cancelled"
+console.warn: "Error while detaching the worker target:" (new Error("wrongState from: server0.conn0.child2/workerTarget554", "resource://devtools/shared/protocol/Front.js", 327))
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 143: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Gdk-Message: 02:55:02.864: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 02000000 path /etc/localtime
+Gdk-Message: 21:25:02.870: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
+1604497510155	geckodriver	INFO	Listening on 127.0.0.1:48977
+1604497510783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePIlVOC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604497530614	Marionette	INFO	Listening on port 35555
+1604497530737	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1604497830183	geckodriver	INFO	Listening on 127.0.0.1:38907
+1604497830191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAGOZOh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604497836423	Marionette	INFO	Listening on port 42025
+1604497836549	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604497865593	Marionette	INFO	Stopped listening on port 42025
+1604497873733	geckodriver	INFO	Listening on 127.0.0.1:45591
+1604497873742	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaqwtpi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604497879510	Marionette	INFO	Listening on port 37459
+1604497879619	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1210:3
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 554: uncaught exception: 2147500036
+1604497888281	Marionette	INFO	Stopped listening on port 37459
+1604497899124	geckodriver	INFO	Listening on 127.0.0.1:49601
+1604497900131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5zU4r6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604497907366	Marionette	INFO	Listening on port 46601
+1604497907523	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 426: Error: OS.File has been shut down. Rejecting post to stat
+ExceptionHandler::GenerateDump cloned child 3524
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1604497952614	Marionette	INFO	Stopped listening on port 46601
+1604498025956	geckodriver	INFO	Listening on 127.0.0.1:45659
+1604498025961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEPmVDR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604498033661	Marionette	INFO	Listening on port 41507
+1604498033730	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1604498441596	geckodriver	INFO	Listening on 127.0.0.1:35925
+1604498441600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefPZbNc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604498447603	Marionette	INFO	Listening on port 38101
+1604498447654	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.co.in/maps?hl=en&tab=wl line 1543 > injectedScript, line 8038: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
