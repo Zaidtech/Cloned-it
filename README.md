@@ -1,5 +1,4 @@
-# Cloned-it
-
+# Cloned-it [![HitCount](http://hits.dwyl.com/Zaidtech/Cloned-it.svg)](http://hits.dwyl.com/Zaidtech/Cloned-it)
 A Flask based simple web browser which saves the content of a page for offline use and opens the links found on the same page and save their content.
 
 ## Status
