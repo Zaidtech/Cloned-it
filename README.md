@@ -47,7 +47,7 @@ Here are some results:-
     [<img src="./preview/p2.png" width="600"/>](p2.png)
 
 Facebook in Marathi language.
-As it is able to dynamically load the translation links as well!!(Credit goes to Facebook developers :)  .)
+As it is able to dynamically load the translation links as well!!  .)
 
 [<img src="./preview/p3.png" width="600"/>](p3.png)
 
