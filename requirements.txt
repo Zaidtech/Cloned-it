@@ -5,7 +5,7 @@ bs4==0.0.1
 cryptography==2.9.2
 Flask==1.1.2
 Flask-SQLAlchemy==2.4.1
-mechanize==0.4.5
+mechanize==0.4.6
 pylint==2.4.4
 request==2019.4.13
 requests==2.23.0
